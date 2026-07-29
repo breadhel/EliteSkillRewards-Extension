@@ -1,21 +1,23 @@
 # EliteSkillRewards-Extension
 
-An EliteMobs addon that allows admins to reward player skill levels with commands while keeping EliteMobs' native progression system, animations, and effects.
+An EliteMobs addon that allows server administrators to reward players with skill levels and XP through simple commands while keeping EliteMobs' native progression system, animations, sounds, particles, and effects.
 
 ## Overview
 
-EliteSkillRewards-Extension adds a simple administration tool for EliteMobs servers, allowing staff members to manually grant skill levels to players while still using EliteMobs' own skill progression system.
+EliteSkillRewards-Extension is designed to give server staff more control over EliteMobs skill progression. Whether you are rewarding players for events, achievements, competitions, or special milestones, this addon provides an easy way to grant skill XP or levels without requiring manual grinding.
 
-Skill rewards are applied through EliteMobs' internal XP system, meaning players receive the same level-up experience as normal gameplay, including EliteMobs' original animations, sounds, particles, and displays.
+Unlike simple level editors, EliteSkillRewards uses EliteMobs' own internal skill system, meaning rewards are handled like normal EliteMobs progression. Players still receive EliteMobs' skill updates, XP displays, level progression, and effects.
 
 ## Features
 
-- Grant EliteMobs skill levels using a simple command
+- Give players EliteMobs skill levels
+- Give players custom amounts of skill XP
 - Uses EliteMobs' native skill progression system
-- Keeps official EliteMobs level-up animations, sounds, and effects
-- Built-in command tab completion
+- Keeps EliteMobs level-up effects and displays
 - Supports all EliteMobs skills
+- Command tab completion support
 - Lightweight and easy to use
+- Designed for events, rewards, and server management
 
 ## Requirements
 
@@ -25,55 +27,12 @@ Skill rewards are applied through EliteMobs' internal XP system, meaning players
 
 ## Installation
 
-1. Download the latest EliteSkillRewards-Extension `.jar`
-2. Place the `.jar` file into your server's `plugins` folder
-3. Ensure EliteMobs is installed and running
+1. Download the latest `EliteSkillRewards-Extension.jar`
+2. Place the jar file into your server's `plugins` folder
+3. Make sure EliteMobs is installed and working
 4. Restart your server
-5. Use `/emskill` to begin rewarding skills
+5. Use the commands below to begin rewarding players
 
 ## Commands
 
-### `/emskill add <player> <skill> <amount>`
-
-Adds the specified amount of levels to a player's EliteMobs skill.
-
-Example:
-
-/emskill add Steve SWORDS 5
-
-This will give Steve 5 additional SWORDS skill levels.
-
-## Permissions
-
-### `elitemobs.skill.admin`
-
-Required permission to use the `/emskill` command.
-
-## Skill Types
-
-The skill argument uses EliteMobs' skill names.
-
-Examples:
-
-SWORDS  
-AXES  
-BOWS  
-ARMOR
-
-You can use tab completion in-game to view all available skills.
-
-## Usage Example
-
-A server administrator wants to reward a player for completing an event:
-
-/emskill add PlayerName ARMOR 3
-
-The player receives 3 ARMOR skill levels, and EliteMobs handles the normal skill progression effects, animations, sounds, and displays.
-
-## Notes
-
-EliteSkillRewards-Extension uses EliteMobs' internal skill system to provide a seamless experience. Because it relies on EliteMobs internals, future EliteMobs updates may require compatibility updates.
-
-## License
-
-MIT License
+### Give Skill Levels
