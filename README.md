@@ -6,6 +6,13 @@ The addon integrates directly with EliteMobs' skill system, allowing rewards to 
 
 Players keep EliteMobs' native XP handling, skill calculations, progression, displays, sounds, particles, and level-up effects.
 
+## Disclaimer
+
+EliteSkillRewards-Extension is a third-party addon for EliteMobs and is not affiliated with or endorsed by the EliteMobs developers.
+
+EliteMobs is required for this addon to function and must be installed separately.
+EliteMobs remains licensed under the GPLv3 license.
+
 ## Features
 
 - Reward players with EliteMobs skill levels
